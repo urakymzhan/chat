@@ -1,7 +1,10 @@
-### TODO deploy to netlify or heroku
 
+## real time chat app 
 
-> Stack
+### live deployed on ==> https://upbeat-morse-c54379.netlify.com
+
+> stack used:
+
 - React Hooks (useEffect and cleanup, setState)
 - React router
 - Socket.IO
@@ -11,4 +14,6 @@
 
 ##### to start run:
 ```npm install && npm start ```  on client and server directory 
+
+
 
