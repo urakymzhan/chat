@@ -8,19 +8,22 @@ export default function SignIn() {
   const [room, setRoom] = useState('');
 
   return (
-    <div className="joinOuterContainer">
-      <div className="joinInnerContainer">
-        <h1 className="heading">Join</h1>
-        <div>
-          <input placeholder="Name" className="joinInput" type="text" onChange={(event) => setName(event.target.value)} />
+    <>
+      <div className="joinOuterContainer">
+        <div className="joinInnerContainer">
+          <h1 className="heading">InstaChat</h1>
+          <p>Sign in to enter your room chat</p>
+          <div>
+            <input placeholder="Name" className="joinInput" type="text" onChange={(event) => setName(event.target.value)} />
+          </div>
+          <div>
+            <input placeholder="Room" className="joinInput mt-20" type="text" onChange={(event) => setRoom(event.target.value)} />
+          </div>
+          <Link onClick={e => (!name || !room) ? e.preventDefault() : null} to={`/chat?name=${name}&room=${room}`}>
+            <button className={'button mt-20'} type="submit">Sign In</button>
+          </Link>
         </div>
-        <div>
-          <input placeholder="Room" className="joinInput mt-20" type="text" onChange={(event) => setRoom(event.target.value)} />
-        </div>
-        <Link onClick={e => (!name || !room) ? e.preventDefault() : null} to={`/chat?name=${name}&room=${room}`}>
-          <button className={'button mt-20'} type="submit">Sign In</button>
-        </Link>
       </div>
-    </div>
+    </>
   );
 }

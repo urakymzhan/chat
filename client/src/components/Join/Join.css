@@ -34,7 +34,12 @@ html, body {
 .heading {
   color: white;
   font-size: 2.5em;
+  
+  
+}
+p {
   padding-bottom: 10px;
+  color: white;
   border-bottom: 2px solid white;
 }
 
