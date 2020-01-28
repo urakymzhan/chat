@@ -37,7 +37,7 @@ html, body {
   
   
 }
-p {
+.joinInnerContainer p {
   padding-bottom: 10px;
   color: white;
   border-bottom: 2px solid white;
