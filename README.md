@@ -10,5 +10,5 @@
 - heroku
 
 ##### to start run:
-```npm install && npm start ``` on client and server directory 
+```npm install && npm start ```  on client and server directory 
 
