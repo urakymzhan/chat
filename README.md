@@ -9,6 +9,6 @@
 - NodeJS
 - heroku
 
-> to start run:
+##### to start run:
 ```npm install && npm start on cliend and server directory ```
 
