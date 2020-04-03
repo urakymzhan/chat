@@ -1,11 +1,11 @@
 
 ## real time chat app 
 
-### live deployed on ==> https://upbeat-morse-c54379.netlify.com
+### live => https://upbeat-morse-c54379.netlify.com
 
 > stack used:
 
-- React Hooks (useEffect and cleanup, setState)
+- React Hooks 
 - React router
 - Socket.IO
 - ExpressJS
