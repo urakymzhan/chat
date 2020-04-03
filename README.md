@@ -1,7 +1,7 @@
 
 ## real time chat app 
 
-### live => https://upbeat-morse-c54379.netlify.com
+### live > https://upbeat-morse-c54379.netlify.com
 
 > stack used:
 
